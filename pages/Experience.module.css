@@ -1,0 +1,77 @@
+/* styles/Experience.module.css */
+
+.experience {
+    padding: 3rem 2rem;
+    background-color: #0a192f;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #64ffda;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  .timeline {
+    width: 100%;
+    max-width: 900px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .job {
+    border-left: 3px solid #64ffda;
+    padding-left: 1.5rem;
+    position: relative;
+  }
+  
+  .job::before {
+    content: '';
+    position: absolute;
+    left: -9px;
+    top: 0;
+    width: 15px;
+    height: 15px;
+    background-color: #64ffda;
+    border-radius: 50%;
+  }
+  
+  .jobTitle {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 0.3rem;
+  }
+  
+  .companyDate {
+    font-size: 0.95rem;
+    font-style: italic;
+    color: #a8b2d1;
+    margin-bottom: 1rem;
+  }
+  
+  .jobDescription {
+    font-size: 1rem;
+    color: #a8b2d1;
+    line-height: 1.6;
+  }
+  
+  @media (min-width: 768px) {
+    .title {
+      font-size: 3rem;
+    }
+  
+    .jobTitle {
+      font-size: 1.4rem;
+    }
+  
+    .jobDescription {
+      font-size: 1.1rem;
+    }
+  }
+  

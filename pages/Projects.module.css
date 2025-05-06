@@ -1,0 +1,95 @@
+.container {
+    padding: 3rem 2rem;
+    background-color: #0a192f; /* Keeping your previous background color */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #64ffda;
+    margin-bottom: 3rem;
+    text-align: center;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .card {
+    background-color: #1e2a47; /* Slightly dark background for the card */
+    border-radius: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border 0.3s ease;
+    border: 3px solid transparent; /* Set a transparent border initially */
+  }
+  
+  .card:hover {
+    transform: scale(1.05); /* Make the card larger on hover */
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Increase the shadow effect */
+    border: 3px solid #64ffda; /* Add a bright border color on hover */
+  }
+  
+  .imageWrapper {
+    position: relative;
+    height: 250px;
+    border-radius: 1rem 1rem 0 0;
+    overflow: hidden;
+  }
+  
+  .textWrapper {
+    padding: 1.5rem;
+  }
+  
+  .projectTitle {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #64ffda;
+    margin-bottom: 0.8rem;
+    display: flex;
+    align-items: center; /* Align the icon and title */
+    gap: 0.8rem;
+  }
+  
+  .projectDescription {
+    font-size: 1rem;
+    color: #a8b2d1;
+    margin-bottom: 1rem;
+  }
+  
+  .projectTechnologies {
+    font-size: 0.9rem;
+    color: #8f8f8f;
+    font-style: italic;
+  }
+  
+  @media (max-width: 768px) {
+    .title {
+      font-size: 2rem;
+    }
+  
+    .projectTitle {
+      font-size: 1.4rem;
+    }
+  
+    .projectDescription {
+      font-size: 1.1rem;
+    }
+  
+    .grid {
+      grid-template-columns: 1fr; /* Stack the boxes on small screens */
+    }
+  
+    .imageWrapper {
+      height: 200px; /* Adjust image size for smaller screens */
+    }
+  }
+  
