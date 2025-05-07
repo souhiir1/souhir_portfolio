@@ -7,7 +7,7 @@ const projects = [
   {
     title: "Application e-commerce (SaaS + mobile)",
     description:
-      "Plateforme SaaS + application mobile intégrant l&#39analyse de sentiments via OpenAI et TensorFlow.js pour les commentaires sur Facebook/Instagram.",
+      "Plateforme SaaS + application mobile intégrant l'analyse de sentiments via OpenAI et TensorFlow.js pour les commentaires sur Facebook/Instagram.",
     technologies:
       "React.js, React Native, Node.js, PostgreSQL, Facebook/Instagram API, TensorFlow.js, OpenAI API",
     image: "/superverseApp.png",
@@ -48,7 +48,7 @@ const projects = [
   {
     title: "Application Adopt Me",
     description:
-      "App style Instagram pour adoption d&#39animaux, avec chat, likes, posts et appels.",
+      "App style Instagram pour adoption d'animaux, avec chat, likes, posts et appels.",
     technologies: "Flutter, Firebase",
     image: "/adopt_me.png",
     icon: <FaMobileAlt size={24} color="#64ffda" />, // Mobile app icon
@@ -62,7 +62,7 @@ const projects = [
     icon: <FaReact size={24} color="#64ffda" />, // React icon for the app
   },
   {
-    title: "Site e-commerce , Huile d&#39olive",
+    title: "Site e-commerce , Huile d'olive",
     description:
       "Site complet avec gestion de catalogue, commandes, paiement en ligne.",
     technologies: "Next.js, MongoDB, Stripe",
@@ -70,7 +70,7 @@ const projects = [
     icon: <FaShoppingCart size={24} color="#64ffda" />, // E-commerce site
   },
   {
-    title: "CRM centre d&#39appel",
+    title: "CRM centre d'appel",
     description:
       "CRM sur mesure avec suivi des appels et statistiques.",
     technologies: "Django, PostgreSQL, React",

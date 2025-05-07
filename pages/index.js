@@ -47,11 +47,11 @@ const Home = () => {
           <h1 className={styles.heading}>{displayedText}</h1>
 
           <p className={styles.subheading}>
-            Innovante et orientée résultats, forte d&#39expériences en développement frontend, backend et d&#39applications mobiles.
+            {`Innovante et orientée résultats, forte d'expériences en développement frontend, backend et d'applications mobiles.`}
             <br />
             Habile dans la conception et la mise en œuvre de solutions scalables et efficaces en environnement Agile.
             <br />
-            Passionnée par les technologies de pointe, j&#39excelle dans l&#39optimisation des processus et la collaboration interdisciplinaire.
+            {`Passionnée par les technologies de pointe, j'excelle dans l'optimisation des processus et la collaboration interdisciplinaire.`}
           </p>
           <motion.button
             className={styles.ctaButton}
