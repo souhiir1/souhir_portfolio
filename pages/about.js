@@ -19,17 +19,17 @@ export default function About() {
 
         <p className={styles.paragraph}>
           <FaTools className={styles.icon} />
-          Mon approche est centrée sur l’<span className={styles.highlight}>efficacité</span>, l’<span className={styles.highlight}>expérience utilisateur</span> et l’<span className={styles.highlight}>intégration continue</span>. En travaillant dans des environnements <span className={styles.highlight}>Agile</span>, j’ai su collaborer efficacement avec des équipes pluridisciplinaires pour mener à bien des projets complexes.
+          Mon approche est centrée sur l'<span className={styles.highlight}>efficacité</span>, '<span className={styles.highlight}>expérience utilisateur</span> et l'<span className={styles.highlight}>intégration continue</span>. En travaillant dans des environnements <span className={styles.highlight}>Agile</span>, j'ai su collaborer efficacement avec des équipes pluridisciplinaires pour mener à bien des projets complexes.
         </p>
 
         <p className={styles.paragraph}>
           <FaBrain className={styles.icon} />
-          En parallèle, je m'intéresse aux domaines de l’<span className={styles.highlight}>intelligence artificielle</span> et de la <span className={styles.highlight}>data analysis</span>, que je continue d’explorer à travers des projets personnels.
+          En parallèle, je m'intéresse aux domaines de l'<span className={styles.highlight}>intelligence artificielle</span> et de la <span className={styles.highlight}>data analysis</span>, que je continue d'explorer à travers des projets personnels.
         </p>
 
         <p className={styles.paragraph}>
           <FaGraduationCap className={styles.icon} />
-          Je suis diplômée de l’École Nationale des Sciences et des Technologies Avancées et je m'efforce continuellement d’élargir mes compétences techniques et humaines.
+          Je suis diplômée de l'École Nationale des Sciences et des Technologies Avancées et je m'efforce continuellement d'élargir mes compétences techniques et humaines.
         </p>
 
         <p className={styles.paragraph}>

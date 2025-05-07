@@ -7,7 +7,7 @@ const projects = [
   {
     title: "Application e-commerce (SaaS + mobile)",
     description:
-      "Plateforme SaaS + application mobile intégrant l’analyse de sentiments via OpenAI et TensorFlow.js pour les commentaires sur Facebook/Instagram.",
+      "Plateforme SaaS + application mobile intégrant l'analyse de sentiments via OpenAI et TensorFlow.js pour les commentaires sur Facebook/Instagram.",
     technologies:
       "React.js, React Native, Node.js, PostgreSQL, Facebook/Instagram API, TensorFlow.js, OpenAI API",
     image: "/superverseApp.png",
@@ -38,7 +38,7 @@ const projects = [
     icon: <FaMobileAlt size={24} color="#64ffda" />, // Mobile icon for the site
   },
   {
-    title: "Application – Vente de pneus",
+    title: "Application , Vente de pneus",
     description:
       "Application mobile pour gérer commandes et stocks de pneus.",
     technologies: "React Native, PHP, MySQL",
@@ -48,13 +48,13 @@ const projects = [
   {
     title: "Application Adopt Me",
     description:
-      "App style Instagram pour adoption d’animaux, avec chat, likes, posts et appels.",
+      "App style Instagram pour adoption d'animaux, avec chat, likes, posts et appels.",
     technologies: "Flutter, Firebase",
     image: "/adopt_me.png",
     icon: <FaMobileAlt size={24} color="#64ffda" />, // Mobile app icon
   },
   {
-    title: "ChTextiles – vente de textile",
+    title: "ChTextiles , vente de textile",
     description:
       "App mobile pour vente de textile, catalogue, commande, paiement sécurisé.",
     technologies: "Oracle, Node.js, React Native",
@@ -62,7 +62,7 @@ const projects = [
     icon: <FaReact size={24} color="#64ffda" />, // React icon for the app
   },
   {
-    title: "Site e-commerce – Huile d'olive",
+    title: "Site e-commerce , Huile d'olive",
     description:
       "Site complet avec gestion de catalogue, commandes, paiement en ligne.",
     technologies: "Next.js, MongoDB, Stripe",
