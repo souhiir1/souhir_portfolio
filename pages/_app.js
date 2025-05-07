@@ -1,5 +1,5 @@
 // pages/_app.js
-import '../components/Layout.css';
+import '../components/layout.css';
 
 import Layout from '../components/layout';
 
