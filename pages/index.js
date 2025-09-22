@@ -313,7 +313,7 @@ const Home = () => {
             <div className={styles.gradientOverlay}></div>
           </div>
 
-         <p className={styles.subheading}>
+      <p className={styles.subheading}>
   <span className={styles.highlight}>{`Fondatrice d'Inova Sphere`}</span>{`et ingénieure en développement full-stack passionnée par l'innovation technologique.`}
   <br /><br />
   {`Spécialisée dans la création de solutions digitales robustes (ERP, SaaS, applications web/mobile) avec une expertise en `}<span className={styles.highlight}>React.js, Node.js, Python et IA</span>.
@@ -346,7 +346,7 @@ const Home = () => {
           >
             <div className={styles.statItem}>
               <span className={styles.statNumber}>5+</span>
-              <span className={styles.statLabel}>  {`Années d'expérience`}</span>
+              <span className={styles.statLabel}>{`Années d'expérience`}</span>
             </div>
             <div className={styles.statItem}>
               <span className={styles.statNumber}>20+</span>
