@@ -203,7 +203,7 @@ const Home = () => {
               </button>
               <div className={styles.welcomeIcon}>✨</div>
               <h2>Bienvenue chez Souhir Manai</h2>
-              <p>Construisons ensemble quelque chose d'extraordinaire</p>
+              <p>{`Construisons ensemble quelque chose d'extraordinaire`}</p>
               
               <motion.button
                 className={styles.contactButton}
@@ -313,12 +313,12 @@ const Home = () => {
             <div className={styles.gradientOverlay}></div>
           </div>
 
-    <p className={styles.subheading}>
-  <span className={styles.highlight}>Fondatrice d&apos;Inova Sphere</span> et ingénieure en développement full-stack passionnée par l&apos;innovation technologique.
+      <p className={styles.subheading}>
+  <span className={styles.highlight}>{`Fondatrice d'Inova Sphere`}</span>{`et ingénieure en développement full-stack passionnée par l'innovation technologique.`}
   <br /><br />
-  Spécialisée dans la création de solutions digitales robustes (ERP, SaaS, applications web/mobile) avec une expertise en <span className={styles.highlight}>React.js, Node.js, Python et IA</span>.
+  {`Spécialisée dans la création de solutions digitales robustes (ERP, SaaS, applications web/mobile) avec une expertise en `}<span className={styles.highlight}>React.js, Node.js, Python et IA</span>.
   <br /><br />
-  J&apos;ai dirigé des projets augmentant la performance système de 15-20% et l&apos;engagement utilisateur de 40%, en appliquant les méthodologies <span className={styles.highlight}>Agile</span> et les meilleures pratiques DevOps.
+  {`J'ai dirigé des projets augmentant la performance système de 15-20% et l'engagement utilisateur de 40%, en appliquant les méthodologies`} <span className={styles.highlight}>Agile</span> et les meilleures pratiques DevOps.
 </p>
 
           
