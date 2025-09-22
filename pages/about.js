@@ -181,7 +181,7 @@ export default function About() {
             <div className={styles.avatarContainer}>
               <div className={styles.avatarGlow}></div>
               <div className={styles.avatar}>
-                <img src="/souhir.png" alt="Souhir Manai" />
+                <Image src="/souhir.png" alt="Souhir Manai" />
               </div>
             </div>
             <div className={styles.introText}>
