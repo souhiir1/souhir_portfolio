@@ -368,7 +368,7 @@ const Home = () => {
           <div className={styles.imageContainer}>
             <div className={styles.circleImage}>
               <Image
-                src="/souhir.png"
+                src="/souhir_pic.png"
                 alt="Photo de Souhir Manai - Ingénieure en développement logiciel"
                 width={350}
                 height={350}
