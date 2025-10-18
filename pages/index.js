@@ -39,7 +39,7 @@ const featuredProjects = [
 // AI Chatbot knowledge base
 const aiKnowledgeBase = {
   "qui es tu": "Je suis Souhir Manai, ingénieure en développement logiciel et fondatrice d'Inova Sphere, spécialisée dans le développement full-stack et les solutions innovantes.",
-  "expérience": "J'ai 5+ années d'expérience en développement, avec des postes chez Scienta Solution, SpearConsulting, et en tant que fondatrice d'Inova Sphere.",
+  "expérience": "J'ai 3+ années d'expérience en développement, avec des postes chez Scienta Solution, SpearConsulting, et en tant que fondatrice d'Inova Sphere.",
   "compétences": "Mes compétences incluent React.js, Node.js, Python, Django, Flutter, React Native, IA, DevOps, et bien d'autres technologies modernes.",
   "projets": "J'ai réalisé 20+ projets incluant des applications web, mobiles, SaaS, ERP, et solutions e-commerce pour divers clients.",
   "contact": "Vous pouvez me contacter par email: souhirmanai9@gmail.com ou téléphone: +216 53 123 640",
@@ -345,7 +345,7 @@ const Home = () => {
             transition={{ delay: 1.2 }}
           >
             <div className={styles.statItem}>
-              <span className={styles.statNumber}>5+</span>
+              <span className={styles.statNumber}>3+</span>
               <span className={styles.statLabel}>{`Années d'expérience`}</span>
             </div>
             <div className={styles.statItem}>

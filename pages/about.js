@@ -113,7 +113,7 @@ export default function About() {
   }, []);
 
   const stats = [
-    { value: 5, label: "Années d'expérience", suffix: "+" },
+    { value: 3, label: "Années d'expérience", suffix: "+" },
     { value: 20, label: "Projets réalisés", suffix: "+" },
     { value: 15, label: "Performance améliorée", suffix: "%" },
     { value: 40, label: "Engagement utilisateur", suffix: "%" }
