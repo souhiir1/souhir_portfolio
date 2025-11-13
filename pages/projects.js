@@ -32,8 +32,22 @@ import {
 } from "react-icons/fa";
 
 const projects = [
-  {
+    {
     id: 1,
+    title: "SaaS de Facturation pour Freelances",
+    description: "Solution SaaS complète de gestion de facturation et suivi de projets pour freelances.",
+    fullDescription: "Plateforme cloud de gestion financière spécialisée pour les freelances avec génération de factures, suivi des paiements, reporting et intégrations bancaires.",
+    technologies: ["Next.js", "Node.js", "PostgreSQL", "paymee", "Chart.js"],
+    images: ["/saas1.png", "/saas2.png", "/saas3.png","saas4.png","saas5.png","saas6.png"],
+    category: "saas",
+    status: "completed",
+    liveUrl: "https://invoicing-frontend-4h8w.onrender.com/",
+    githubUrl: "https://github.com/souhiir1/invoicing-frontend",
+    features: ["Facturation automatique", "Dashboard analytique", "Multi-devises", "Export PDF","paiement enligne"],
+    year: 2025
+  },
+  {
+    id: 2,
     title: "Inova Sphere - Site Corporate",
     description: "Site vitrine professionnel présentant les services de développement de solutions digitales avec dashboard administrateur.",
     fullDescription: "Plateforme corporate complète avec présentation des services, portfolio de réalisations et système de gestion de contenu. Interface moderne et responsive avec animations fluides et optimisation SEO.",
@@ -47,7 +61,7 @@ const projects = [
     year: 2025
   },
   {
-    id: 2,
+    id: 3,
     title: "Arcocerame - Site E-commerce",
     description: "Plateforme e-commerce spécialisée dans la vente d'articles en céramique avec gestion de catalogue avancée.",
     fullDescription: "Site e-commerce complet pour une entreprise spécialisée dans les articles de céramique. Gestion des produits, panier, paiement sécurisé, et système de commandes. Interface utilisateur intuitive avec galerie produits haute qualité.",
@@ -61,7 +75,7 @@ const projects = [
     year: 2024
   },
   {
-    id: 3,
+    id: 4,
     title: "PneuMafamech - Application Mobile",
     description: "Application mobile de vente et gestion de stocks de pneus avec système de commande en ligne.",
     fullDescription: "Application complète de gestion de vente de pneus avec catalogue produits, système de commandes, suivi de livraison et interface administrateur. Optimisée pour les utilisateurs professionnels.",
@@ -75,7 +89,21 @@ const projects = [
     year: 2023/2024
   },
   {
-    id: 4,
+   id: 5,
+    title: "simple tasbeeh counter app",
+    description: "Digital tasbeeh counter mobile app",
+    fullDescription: "it's a simple mobile app that allows muslims to count their dhikrs and save them",
+    technologies: ["react native"],
+    images: ["app.png","app1.png","app2"],
+    category: "app",
+    status: "completed",
+    liveUrl: null,
+    githubUrl: "https://github.com/souhiir1/tasbeeh-app",
+    features: ["mobile app","tasbeeh","muslims","react-native"],
+    year: 2025
+},
+  {
+    id: 6,
     title: "MIAW Network - Application Éducative",
     description: "Plateforme interactive permettant aux enfants de partager leurs pensées et créativité.",
     fullDescription: "Application mobile éducative innovante offrant un espace sécurisé pour les enfants afin d'exprimer leur créativité. Interface colorée et intuitive avec système de modération parentale et contenu adapté.",
@@ -88,22 +116,9 @@ const projects = [
     features: ["Interface enfant", "Modération parentale", "Contenu éducatif", "Cloud storage"],
     year: 2025
   },
+
   {
-    id: 5,
-    title: "SaaS de Facturation pour Freelances",
-    description: "Solution SaaS complète de gestion de facturation et suivi de projets pour freelances.",
-    fullDescription: "Plateforme cloud de gestion financière spécialisée pour les freelances avec génération de factures, suivi des paiements, reporting et intégrations bancaires.",
-    technologies: ["Next.js", "Node.js", "PostgreSQL", "Stripe", "Chart.js"],
-    images: ["/saas1.png", "/saas2.png", "/saas3.png"],
-    category: "saas",
-    status: "in-progress",
-    liveUrl: null,
-    githubUrl: "https://github.com/souhirmanai/invoicing-saas",
-    features: ["Facturation automatique", "Dashboard analytique", "Multi-devises", "Export PDF"],
-    year: 2025
-  },
-  {
-    id: 6,
+    id: 7,
     title: "Application E-commerce (SaaS + Mobile)",
     description: "Plateforme SaaS intégrant l'analyse de sentiments via OpenAI pour les commentaires sociaux.",
     fullDescription: "Solution e-commerce complète avec application mobile intégrée. Système d'analyse de sentiments en temps réel pour les commentaires Facebook/Instagram utilisant l'IA.",
@@ -117,7 +132,7 @@ const projects = [
     year: 2023
   },
   {
-    id: 7,
+    id: 8,
     title: "Logiciel de Caisse Intelligent",
     description: "Système complet de vente, gestion client, fidélité et reporting analytique.",
     fullDescription: "Logiciel de point de vente avancé avec gestion des stocks, clients, programmes de fidélité et reporting détaillé. Interface optimisée pour les commerces de détail.",
@@ -131,7 +146,7 @@ const projects = [
     year: 2023
   },
   {
-    id: 8,
+    id: 9,
     title: "CRM Entreprise (Web & Mobile)",
     description: "Solution complète de gestion des relations clients avec application mobile pour managers.",
     fullDescription: "CRM sur mesure avec gestion des leads, opportunités, calendrier et reporting. Application mobile dédiée pour les équipes commerciales en déplacement.",
@@ -145,7 +160,7 @@ const projects = [
     year: 2023
   },
   {
-    id: 9,
+    id: 10,
     title: "Adopt Me - Réseau Social Animalier",
     description: "Application style Instagram dédiée à l'adoption d'animaux avec chat et fonctionnalités sociales.",
     fullDescription: "Réseau social communautaire pour l'adoption d'animaux. Fonctionnalités complètes : publication, messagerie, likes, et système de matching.",
@@ -159,7 +174,7 @@ const projects = [
     year: 2022
   },
   {
-    id: 10,
+    id: 11,
     title: "ChTextiles - Application Mobile",
     description: "Application de vente de textile avec catalogue, commande et paiement sécurisé.",
     fullDescription: "Plateforme mobile de vente de produits textiles avec gestion des collections, tailles, couleurs et système de commande avancé.",
@@ -173,7 +188,7 @@ const projects = [
     year: 2024
   },
   {
-    id: 11,
+    id: 12,
     title: "Site E-commerce Huile d'Olive",
     description: "Plateforme de vente en ligne spécialisée dans les produits d'huile d'olive premium.",
     fullDescription: "Boutique en ligne élégante mettant en valeur des produits d'huile d'olive de qualité. Design épuré mettant l'accent sur l'aspect premium des produits.",
@@ -187,7 +202,7 @@ const projects = [
     year: 2024
   },
   {
-    id: 12,
+    id: 13,
     title: "CRM Centre d'Appel",
     description: "Solution sur mesure pour centre d'appels avec suivi des appels et statistiques détaillées.",
     fullDescription: "CRM spécialisé pour centres d'appels avec gestion des tickets, historique des appels, performance des agents et tableaux de bord en temps réel.",
@@ -198,10 +213,10 @@ const projects = [
     liveUrl: null,
     githubUrl: null,
     features: ["Gestion appels", "Reporting temps réel", "Interface agent", "Supervision"],
-    year: 2022
+    year: 2023
   },
   {
-    id: 13,
+    id: 14,
     title: "Plateforme Recherche de Stages",
     description: "Site web connectant étudiants et entreprises pour des opportunités de stage.",
     fullDescription: "Plateforme collaborative permettant aux étudiants de trouver des stages adaptés et aux entreprises de publier leurs offres. Système de matching intelligent.",
