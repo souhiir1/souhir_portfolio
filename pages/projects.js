@@ -94,7 +94,7 @@ const projects = [
     description: "Digital tasbeeh counter mobile app",
     fullDescription: "it's a simple mobile app that allows muslims to count their dhikrs and save them",
     technologies: ["react native"],
-    images: ["app.png","app1.png","app2"],
+    images: ["app2.jpg","app1.jpg","app.jpg"],
     category: "app",
     status: "completed",
     liveUrl: null,
