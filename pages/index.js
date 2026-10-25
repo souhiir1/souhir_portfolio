@@ -38,16 +38,31 @@ const featuredProjects = [
 
 // AI Chatbot knowledge base
 const aiKnowledgeBase = {
-  "qui es tu": "Je suis Souhir Manai, ingénieure en développement logiciel et fondatrice d'Inova Sphere, spécialisée dans le développement full-stack et les solutions innovantes.",
-  "expérience": "J'ai 3+ années d'expérience en développement, avec des postes chez Scienta Solution, SpearConsulting, et en tant que fondatrice d'Inova Sphere.",
-  "compétences": "Mes compétences incluent React.js, Node.js, Python, Django, Flutter, React Native, IA, DevOps, et bien d'autres technologies modernes.",
-  "projets": "J'ai réalisé 20+ projets incluant des applications web, mobiles, SaaS, ERP, et solutions e-commerce pour divers clients.",
-  "contact": "Vous pouvez me contacter par email: souhirmanai9@gmail.com ou téléphone: +216 53 123 640",
-  "inova sphere": "Inova Sphere est ma startup spécialisée dans le développement de solutions digitales innovantes pour les entreprises.",
-  "formation": "Je suis diplômée de l'École Nationale des Sciences et des Technologies Avancées (ENSTA Tunis).",
-  "technologies": "Je maîtrise React, Angular, Next.js, Node.js, Python, Django, Flutter, React Native, Docker, Kubernetes, et plus encore.",
-  "disponibilité": "Je suis disponible pour de nouvelles opportunités et collaborations intéressantes.",
-  "tarifs": "Pour discuter de tarifs et projets, contactez-moi directement pour une estimation personnalisée."
+  "qui es tu": "Je suis Souhir Manai, ingénieure en développement logiciel et développeuse Full-Stack, spécialisée dans le développement d'applications web et mobiles.",
+
+  "expérience": "J'ai plus de 3 ans d'expérience en développement logiciel, notamment chez Spear Consulting et Scienta Solution. J'ai travaillé sur des applications web et mobiles, des ERP, CRM, plateformes SaaS et solutions e-commerce.",
+
+  "compétences": "Mes compétences incluent React.js, Next.js, Angular, Node.js, Python, Django, Spring Boot, Flutter, React Native, les API REST, les bases de données, Git, DevOps et l'intelligence artificielle.",
+
+  "ia": "J'utilise des outils d'intelligence artificielle et de développement assisté par IA tels que ChatGPT, Claude Code, Claude Desktop, GitHub Copilot et OpenAI API pour accélérer le développement, le débogage, la documentation et la résolution de problèmes.",
+
+  "projets": "J'ai réalisé de nombreux projets incluant des applications web et mobiles, des plateformes SaaS, ERP, CRM, solutions e-commerce et applications intégrant l'intelligence artificielle.",
+
+  "contact": "Vous pouvez me contacter par email à souhirmanai9@gmail.com ou par téléphone au +216 53 123 640.",
+
+  "formation": "Je suis diplômée de l'École Nationale des Sciences et des Technologies Avancées (ENSTA Tunis), avec un diplôme d'ingénieure.",
+
+  "technologies": "Je maîtrise notamment React.js, Angular, Next.js, Node.js, Java, Spring Boot, Python, Django, Flutter, React Native, MySQL, PostgreSQL, MongoDB, Oracle, SQLite, Docker, Kubernetes et Git.",
+
+  "langues": "Je communique efficacement en arabe, français et anglais.",
+
+  "enseignement": "J'ai également une expérience dans l'enseignement de l'algorithmique, de la programmation et de Python pour la Data Science auprès d'élèves ingénieurs, ainsi que dans la formation en programmation et intelligence artificielle.",
+
+  "freelance": "Je suis disponible pour des missions freelance en développement web, mobile, Full-Stack et pour des projets intégrant des solutions d'intelligence artificielle.",
+
+  "disponibilité": "Je suis ouverte à de nouvelles opportunités professionnelles ainsi qu'à des missions et collaborations freelance.",
+
+  "tarifs": "Pour discuter des tarifs d'une mission freelance ou d'un projet, contactez-moi directement afin d'obtenir une estimation personnalisée selon vos besoins."
 };
 
 const Home = () => {
@@ -313,12 +328,16 @@ const Home = () => {
             <div className={styles.gradientOverlay}></div>
           </div>
 
-      <p className={styles.subheading}>
-  <span className={styles.highlight}>{`Fondatrice d'Inova Sphere`}</span>{`et ingénieure en développement full-stack passionnée par l'innovation technologique.`}
+     <p className={styles.subheading}>
+  <span className={styles.highlight}>{`Ingénieure en développement logiciel & développeuse Full-Stack`}</span>
+  {` avec plus de 3 ans d'expérience dans la conception et le développement d'applications web et mobiles.`}
   <br /><br />
-  {`Spécialisée dans la création de solutions digitales robustes (ERP, SaaS, applications web/mobile) avec une expertise en `}<span className={styles.highlight}>React.js, Node.js, Python et IA</span>.
+  {`Spécialisée dans la création de solutions digitales robustes (ERP, SaaS, CRM, applications web/mobile et e-commerce), avec une expertise en `}
+  <span className={styles.highlight}>React.js, Next.js, Node.js, Python, Flutter et React Native</span>.
   <br /><br />
-  {`J'ai dirigé des projets augmentant la performance système de 15-20% et l'engagement utilisateur de 40%, en appliquant les méthodologies`} <span className={styles.highlight}>Agile</span> et les meilleures pratiques DevOps.
+  {`J'intègre également les outils d'IA dans mon workflow de développement, notamment `}
+  <span className={styles.highlight}>ChatGPT, Claude Code, Claude Desktop, GitHub Copilot et OpenAI API</span>
+  {`, afin d'optimiser le développement, le débogage, la documentation et la résolution de problèmes.`}
 </p>
 
           
@@ -368,7 +387,7 @@ const Home = () => {
           <div className={styles.imageContainer}>
             <div className={styles.circleImage}>
               <Image
-                src="/souhir_pic.png"
+                src="/souhir_picture.png"
                 alt="Photo de Souhir Manai - Ingénieure en développement logiciel"
                 width={350}
                 height={350}
