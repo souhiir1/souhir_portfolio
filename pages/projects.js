@@ -32,204 +32,366 @@ import {
 } from "react-icons/fa";
 
 const projects = [
-    {
+  {
     id: 1,
+    title: "High Touch - Site Corporate",
+    description: "Site web corporate premium pour une agence spécialisée en communication, marketing digital et stratégie de marque.",
+    fullDescription: "Conception et développement d'un site vitrine moderne et responsive pour High Touch. Le projet met en valeur l'identité de marque, les services et les expertises de l'agence à travers une interface élégante, des animations fluides et une expérience utilisateur optimisée. Déploiement sur Netlify avec configuration du nom de domaine personnalisé et optimisation SEO.",
+    technologies: ["Next.js", "React", "JavaScript", "CSS Modules", "Framer Motion", "Netlify"],
+    images: [
+      "/hightouch1.png",
+      "/hightouch2.png",
+      "/hightouch3.png",
+      "/hightouch4.png"
+    ],
+    category: "web",
+    status: "completed",
+    liveUrl: "https://hightouch.tn",
+    githubUrl: "https://github.com/souhiir1/high-touch-website.git",
+    features: [
+      "Design responsive",
+      "Animations modernes",
+      "Identité visuelle premium",
+      "Optimisation SEO",
+      "Nom de domaine personnalisé",
+      "Déploiement Netlify"
+    ],
+    year: 2026
+  },
+  {
+    id: 2,
     title: "SaaS de Facturation pour Freelances",
     description: "Solution SaaS complète de gestion de facturation et suivi de projets pour freelances.",
     fullDescription: "Plateforme cloud de gestion financière spécialisée pour les freelances avec génération de factures, suivi des paiements, reporting et intégrations bancaires.",
     technologies: ["Next.js", "Node.js", "PostgreSQL", "paymee", "Chart.js"],
-    images: ["/saas1.png", "/saas2.png", "/saas3.png","saas4.png","saas5.png","saas6.png"],
+    images: [
+      "/saas1.png",
+      "/saas2.png",
+      "/saas3.png",
+      "/saas4.png",
+      "/saas5.png",
+      "/saas6.png"
+    ],
     category: "saas",
     status: "completed",
     liveUrl: "https://invoicing-frontend-4h8w.onrender.com/",
     githubUrl: "https://github.com/souhiir1/invoicing-frontend",
-    features: ["Facturation automatique", "Dashboard analytique", "Multi-devises", "Export PDF","paiement enligne"],
-    year: 2025
-  },
-  {
-    id: 2,
-    title: "Inova Sphere - Site Corporate",
-    description: "Site vitrine professionnel présentant les services de développement de solutions digitales avec dashboard administrateur.",
-    fullDescription: "Plateforme corporate complète avec présentation des services, portfolio de réalisations et système de gestion de contenu. Interface moderne et responsive avec animations fluides et optimisation SEO.",
-    technologies: ["Next.js", "Node.js", "SQLite", "Tailwind CSS", "TypeScript"],
-    images: ["/inovasphere1.png", "/inovasphere2.png", "/inovasphere3.png","/inovasphere4.png","/inovasphere5.png"],
-    category: "web",
-    status: "completed",
-    liveUrl: "https://inovasphere.tech",
-    githubUrl: null,
-    features: ["Design responsive", "Dashboard admin", "Optimisation SEO", "Animations modernes"],
+    features: [
+      "Facturation automatique",
+      "Dashboard analytique",
+      "Multi-devises",
+      "Export PDF",
+      "Paiement en ligne"
+    ],
     year: 2025
   },
   {
     id: 3,
+    title: "Inova Sphere - Site Corporate",
+    description: "Site vitrine professionnel présentant les services de développement de solutions digitales avec dashboard administrateur.",
+    fullDescription: "Plateforme corporate complète avec présentation des services, portfolio de réalisations et système de gestion de contenu. Interface moderne et responsive avec animations fluides et optimisation SEO.",
+    technologies: ["Next.js", "Node.js", "SQLite", "Tailwind CSS", "TypeScript"],
+    images: [
+      "/inovasphere1.png",
+      "/inovasphere2.png",
+      "/inovasphere3.png",
+      "/inovasphere4.png",
+      "/inovasphere5.png"
+    ],
+    category: "web",
+    status: "completed",
+    liveUrl: "https://inovasphere.tech",
+    githubUrl: null,
+    features: [
+      "Design responsive",
+      "Dashboard admin",
+      "Optimisation SEO",
+      "Animations modernes"
+    ],
+    year: 2025
+  },
+  {
+    id: 4,
     title: "Arcocerame - Site E-commerce",
     description: "Plateforme e-commerce spécialisée dans la vente d'articles en céramique avec gestion de catalogue avancée.",
     fullDescription: "Site e-commerce complet pour une entreprise spécialisée dans les articles de céramique. Gestion des produits, panier, paiement sécurisé, et système de commandes. Interface utilisateur intuitive avec galerie produits haute qualité.",
     technologies: ["React.js", "Node.js", "MongoDB", "Stripe", "Cloudinary"],
-    images: ["/arcocerame1.png", "/arcocerame2.png", "/arcocerame3.png"],
+    images: [
+      "/arcocerame1.png",
+      "/arcocerame2.png",
+      "/arcocerame3.png"
+    ],
     category: "ecommerce",
     status: "completed",
     liveUrl: "https://arcocerame.com",
     githubUrl: null,
-    features: [ "Gestion stock", "Interface admin", "Gallery produits"],
+    features: [
+      "Gestion stock",
+      "Interface admin",
+      "Gallery produits"
+    ],
     year: 2024
   },
   {
-    id: 4,
+    id: 5,
     title: "PneuMafamech - Application Mobile",
     description: "Application mobile de vente et gestion de stocks de pneus avec système de commande en ligne.",
     fullDescription: "Application complète de gestion de vente de pneus avec catalogue produits, système de commandes, suivi de livraison et interface administrateur. Optimisée pour les utilisateurs professionnels.",
     technologies: ["React Native", "PHP", "MySQL", "Firebase", "Stripe"],
-    images: ["/tire_store.png", "/pneumafamech2.png", "/pneumafamech3.png"],
+    images: [
+      "/tire_store.png",
+      "/pneumafamech2.png",
+      "/pneumafamech3.png"
+    ],
     category: "mobile",
     status: "completed",
     liveUrl: "https://play.google.com/store/apps/details?id=com.cspd_fdm&hl=fr&pli=1",
     githubUrl: null,
-    features: ["Catalogue produits", "Commandes en ligne", "Gestion stock", "Paiement mobile"],
-    year: 2023/2024
+    features: [
+      "Catalogue produits",
+      "Commandes en ligne",
+      "Gestion stock",
+      "Paiement mobile"
+    ],
+    year: "2023/2024"
   },
   {
-   id: 5,
+    id: 6,
     title: "simple tasbeeh counter app",
     description: "Digital tasbeeh counter mobile app",
-    fullDescription: "it's a simple mobile app that allows muslims to count their dhikrs and save them",
-    technologies: ["react native"],
-    images: ["app2.jpg","app1.jpg","app.jpg"],
+    fullDescription: "It's a simple mobile app that allows muslims to count their dhikrs and save them.",
+    technologies: ["React Native"],
+    images: [
+      "/app2.jpg",
+      "/app1.jpg",
+      "/app.jpg"
+    ],
     category: "app",
     status: "completed",
     liveUrl: null,
     githubUrl: "https://github.com/souhiir1/tasbeeh-app",
-    features: ["mobile app","tasbeeh","muslims","react-native"],
+    features: [
+      "Mobile app",
+      "Tasbeeh",
+      "Muslims",
+      "React Native"
+    ],
     year: 2025
-},
+  },
   {
-    id: 6,
+    id: 7,
     title: "MIAW Network - Application Éducative",
     description: "Plateforme interactive permettant aux enfants de partager leurs pensées et créativité.",
     fullDescription: "Application mobile éducative innovante offrant un espace sécurisé pour les enfants afin d'exprimer leur créativité. Interface colorée et intuitive avec système de modération parentale et contenu adapté.",
     technologies: ["React Native", "Node.js", "PostgreSQL", "Firebase Auth", "AWS S3"],
-    images: ["/miaw1.png", "/miaw2.png", "/miaw3.png"],
+    images: [
+      "/miaw1.png",
+      "/miaw2.png",
+      "/miaw3.png"
+    ],
     category: "mobile",
     status: "in-progress",
     liveUrl: null,
     githubUrl: null,
-    features: ["Interface enfant", "Modération parentale", "Contenu éducatif", "Cloud storage"],
+    features: [
+      "Interface enfant",
+      "Modération parentale",
+      "Contenu éducatif",
+      "Cloud storage"
+    ],
     year: 2025
   },
-
   {
-    id: 7,
+    id: 8,
     title: "Application E-commerce (SaaS + Mobile)",
     description: "Plateforme SaaS intégrant l'analyse de sentiments via OpenAI pour les commentaires sociaux.",
     fullDescription: "Solution e-commerce complète avec application mobile intégrée. Système d'analyse de sentiments en temps réel pour les commentaires Facebook/Instagram utilisant l'IA.",
     technologies: ["React.js", "React Native", "Node.js", "PostgreSQL", "OpenAI API", "TensorFlow.js"],
-    images: ["/ecom-saas1.png", "/ecom-saas2.png", "/ecom-saas3.png","/ecom-saas4.png","/ecom-saas5.png"],
+    images: [
+      "/ecom-saas1.png",
+      "/ecom-saas2.png",
+      "/ecom-saas3.png",
+      "/ecom-saas4.png",
+      "/ecom-saas5.png"
+    ],
     category: "saas",
     status: "completed",
     liveUrl: null,
     githubUrl: null,
-    features: ["Analyse sentiments IA", "Multi-platform", "API social media", "Dashboard temps réel"],
-    year: 2023
-  },
-  {
-    id: 8,
-    title: "Logiciel de Caisse Intelligent",
-    description: "Système complet de vente, gestion client, fidélité et reporting analytique.",
-    fullDescription: "Logiciel de point de vente avancé avec gestion des stocks, clients, programmes de fidélité et reporting détaillé. Interface optimisée pour les commerces de détail.",
-    technologies: ["Django", "React", "PostgreSQL", "WebSocket", "Chart.js"],
-    images: ["/pos1.png", "/pos2.png", "/pos3.png"],
-    category: "web",
-    status: "completed",
-    liveUrl: null,
-    githubUrl: null,
-    features: ["Gestion multi-caisses", "Reporting analytique", "Fidélité clients", "Sync en temps réel"],
+    features: [
+      "Analyse sentiments IA",
+      "Multi-platform",
+      "API social media",
+      "Dashboard temps réel"
+    ],
     year: 2023
   },
   {
     id: 9,
-    title: "CRM Entreprise (Web & Mobile)",
-    description: "Solution complète de gestion des relations clients avec application mobile pour managers.",
-    fullDescription: "CRM sur mesure avec gestion des leads, opportunités, calendrier et reporting. Application mobile dédiée pour les équipes commerciales en déplacement.",
-    technologies: ["React", "React Native", "Oracle", "PHP", "Node.js"],
-    images: ["/crm1.png", "/crm2.png", "/crm3.png"],
+    title: "Logiciel de Caisse Intelligent",
+    description: "Système complet de vente, gestion client, fidélité et reporting analytique.",
+    fullDescription: "Logiciel de point de vente avancé avec gestion des stocks, clients, programmes de fidélité et reporting détaillé. Interface optimisée pour les commerces de détail.",
+    technologies: ["Django", "React", "PostgreSQL", "WebSocket", "Chart.js"],
+    images: [
+      "/pos1.png",
+      "/pos2.png",
+      "/pos3.png"
+    ],
     category: "web",
     status: "completed",
     liveUrl: null,
     githubUrl: null,
-    features: ["Gestion leads", "Calendrier intégré", "Mobile sync", "Analytics"],
+    features: [
+      "Gestion multi-caisses",
+      "Reporting analytique",
+      "Fidélité clients",
+      "Sync en temps réel"
+    ],
     year: 2023
   },
   {
     id: 10,
+    title: "CRM Entreprise (Web & Mobile)",
+    description: "Solution complète de gestion des relations clients avec application mobile pour managers.",
+    fullDescription: "CRM sur mesure avec gestion des leads, opportunités, calendrier et reporting. Application mobile dédiée pour les équipes commerciales en déplacement.",
+    technologies: ["React", "React Native", "Oracle", "PHP", "Node.js"],
+    images: [
+      "/crm1.png",
+      "/crm2.png",
+      "/crm3.png"
+    ],
+    category: "web",
+    status: "completed",
+    liveUrl: null,
+    githubUrl: null,
+    features: [
+      "Gestion leads",
+      "Calendrier intégré",
+      "Mobile sync",
+      "Analytics"
+    ],
+    year: 2023
+  },
+  {
+    id: 11,
     title: "Adopt Me - Réseau Social Animalier",
     description: "Application style Instagram dédiée à l'adoption d'animaux avec chat et fonctionnalités sociales.",
     fullDescription: "Réseau social communautaire pour l'adoption d'animaux. Fonctionnalités complètes : publication, messagerie, likes, et système de matching.",
     technologies: ["Flutter", "Firebase", "Cloud Storage", "Push Notifications"],
-    images: ["/adoptme1.png", "/adoptme2.png", "/adoptme3.png"],
+    images: [
+      "/adoptme1.png",
+      "/adoptme2.png",
+      "/adoptme3.png"
+    ],
     category: "mobile",
     status: "completed",
     liveUrl: null,
     githubUrl: null,
-    features: ["Chat en temps réel", "Galerie photos", "Système matching", "Notifications"],
+    features: [
+      "Chat en temps réel",
+      "Galerie photos",
+      "Système matching",
+      "Notifications"
+    ],
     year: 2022
   },
   {
-    id: 11,
+    id: 12,
     title: "ChTextiles - Application Mobile",
     description: "Application de vente de textile avec catalogue, commande et paiement sécurisé.",
     fullDescription: "Plateforme mobile de vente de produits textiles avec gestion des collections, tailles, couleurs et système de commande avancé.",
     technologies: ["React Native", "Oracle", "Node.js", "Payment Gateway"],
-    images: ["/chtextiles1.png", "/chtextiles2.png", "/chtextiles3.png"],
+    images: [
+      "/chtextiles1.png",
+      "/chtextiles2.png",
+      "/chtextiles3.png"
+    ],
     category: "mobile",
     status: "completed",
     liveUrl: null,
     githubUrl: null,
-    features: ["Catalogue dynamique", "Gestion stocks", "Paiement mobile", "Suivi commandes"],
-    year: 2024
-  },
-  {
-    id: 12,
-    title: "Site E-commerce Huile d'Olive",
-    description: "Plateforme de vente en ligne spécialisée dans les produits d'huile d'olive premium.",
-    fullDescription: "Boutique en ligne élégante mettant en valeur des produits d'huile d'olive de qualité. Design épuré mettant l'accent sur l'aspect premium des produits.",
-    technologies: ["Next.js", "MongoDB", "Stripe", "Cloudinary", "SEO Optimization"],
-    images: ["/olive1.png", "/olive2.png", "/olive3.png","/olive4.png"],
-    category: "ecommerce",
-    status: "completed",
-    liveUrl: null,
-    githubUrl: null,
-    features: ["Design premium", "Paiement sécurisé", "Blog intégré", "Optimisation SEO"],
+    features: [
+      "Catalogue dynamique",
+      "Gestion stocks",
+      "Paiement mobile",
+      "Suivi commandes"
+    ],
     year: 2024
   },
   {
     id: 13,
+    title: "Site E-commerce Huile d'Olive",
+    description: "Plateforme de vente en ligne spécialisée dans les produits d'huile d'olive premium.",
+    fullDescription: "Boutique en ligne élégante mettant en valeur des produits d'huile d'olive de qualité. Design épuré mettant l'accent sur l'aspect premium des produits.",
+    technologies: ["Next.js", "MongoDB", "Stripe", "Cloudinary", "SEO Optimization"],
+    images: [
+      "/olive1.png",
+      "/olive2.png",
+      "/olive3.png",
+      "/olive4.png"
+    ],
+    category: "ecommerce",
+    status: "completed",
+    liveUrl: null,
+    githubUrl: null,
+    features: [
+      "Design premium",
+      "Paiement sécurisé",
+      "Blog intégré",
+      "Optimisation SEO"
+    ],
+    year: 2024
+  },
+  {
+    id: 14,
     title: "CRM Centre d'Appel",
     description: "Solution sur mesure pour centre d'appels avec suivi des appels et statistiques détaillées.",
     fullDescription: "CRM spécialisé pour centres d'appels avec gestion des tickets, historique des appels, performance des agents et tableaux de bord en temps réel.",
     technologies: ["Django", "PostgreSQL", "React", "WebRTC", "Analytics"],
-    images: ["/callcenter1.png", "/callcenter2.png", "/callcenter3.png","/callcenter4.png","/callcenter5.png"],
+    images: [
+      "/callcenter1.png",
+      "/callcenter2.png",
+      "/callcenter3.png",
+      "/callcenter4.png",
+      "/callcenter5.png"
+    ],
     category: "web",
     status: "completed",
     liveUrl: null,
     githubUrl: null,
-    features: ["Gestion appels", "Reporting temps réel", "Interface agent", "Supervision"],
+    features: [
+      "Gestion appels",
+      "Reporting temps réel",
+      "Interface agent",
+      "Supervision"
+    ],
     year: 2023
   },
   {
-    id: 14,
+    id: 15,
     title: "Plateforme Recherche de Stages",
     description: "Site web connectant étudiants et entreprises pour des opportunités de stage.",
     fullDescription: "Plateforme collaborative permettant aux étudiants de trouver des stages adaptés et aux entreprises de publier leurs offres. Système de matching intelligent.",
     technologies: ["HTML", "CSS", "JavaScript", "PHP", "MySQL"],
-    images: ["/internship1.png", "/internship2.png", "/internship3.png"],
+    images: [
+      "/internship1.png",
+      "/internship2.png",
+      "/internship3.png"
+    ],
     category: "web",
     status: "completed",
     liveUrl: null,
     githubUrl: null,
-    features: ["Matching intelligent", "Gestion candidatures", "Espace entreprise", "Alertes email"],
+    features: [
+      "Matching intelligent",
+      "Gestion candidatures",
+      "Espace entreprise",
+      "Alertes email"
+    ],
     year: 2021
   }
 ];
+
 
 const categories = [
   { id: "all", label: "Tous les projets", icon: <FaLayerGroup />, count: projects.length },
