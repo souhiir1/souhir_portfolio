@@ -282,7 +282,7 @@ const Layout = ({ children }) => {
                 <ul>
                   <li>📧 souhirmanai9@gmail.com</li>
                   <li>📱 +216 53 123 640</li>
-                  <li>📍 Afh Borj Cédria, Tunisie</li>
+                  <li>📍 Chouchet Rades, Tunisie</li>
                 </ul>
               </div>
 
